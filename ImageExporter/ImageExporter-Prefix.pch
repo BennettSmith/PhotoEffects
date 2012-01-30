@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ImageExporter' target in the 'ImageExporter' project
+//
+
+#ifdef __OBJC__
+    #import <Quartz/Quartz.h>
+#endif

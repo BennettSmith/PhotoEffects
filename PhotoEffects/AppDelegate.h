@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Quartz/Quartz.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet QCView *quartzComposerView;
 
+- (IBAction)captureImage:(id)sender;
+
+- (IBAction)showSelectedFilter:(id)sender;
 @end

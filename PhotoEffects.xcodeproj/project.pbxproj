@@ -13,7 +13,25 @@
 		910CB63414D5167000921652 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 910CB63214D5167000921652 /* Credits.rtf */; };
 		910CB63714D5167000921652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CB63614D5167000921652 /* AppDelegate.m */; };
 		910CB63A14D5167000921652 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910CB63814D5167000921652 /* MainMenu.xib */; };
+		910CB64114D5167F00921652 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910CB64014D5167E00921652 /* QuartzCore.framework */; };
+		910CB64314D516C000921652 /* PhotoEffects.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 910CB64214D516C000921652 /* PhotoEffects.qtz */; };
+		910CB64514D517D100921652 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910CB64414D517D100921652 /* Quartz.framework */; };
+		910CB64814D523D900921652 /* NSImage+JPegHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CB64714D523D900921652 /* NSImage+JPegHelpers.m */; };
+		91AF282114D6493500864FF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910CB62314D5167000921652 /* Cocoa.framework */; };
+		91AF282214D6493500864FF8 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910CB64414D517D100921652 /* Quartz.framework */; };
+		91AF282A14D6493500864FF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91AF282814D6493500864FF8 /* InfoPlist.strings */; };
+		91AF282D14D6493500864FF8 /* ImageExporterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AF282C14D6493500864FF8 /* ImageExporterPlugin.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91AF283314D65C0500864FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910CB61614D5166F00921652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91AF281F14D6493500864FF8;
+			remoteInfo = ImageExporter;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		910CB61F14D5167000921652 /* PhotoEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,14 +39,25 @@
 		910CB62614D5167000921652 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		910CB62714D5167000921652 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		910CB62814D5167000921652 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		910CB62B14D5167000921652 /* PhotoEffects-Info.plist */ = {isa = PBXFileReference; path = "PhotoEffects-Info.plist"; sourceTree = "<group>"; };
+		910CB62B14D5167000921652 /* PhotoEffects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoEffects-Info.plist"; sourceTree = "<group>"; };
 		910CB62D14D5167000921652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		910CB62F14D5167000921652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		910CB63114D5167000921652 /* PhotoEffects-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoEffects-Prefix.pch"; sourceTree = "<group>"; };
+		910CB63114D5167000921652 /* PhotoEffects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoEffects-Prefix.pch"; sourceTree = "<group>"; };
 		910CB63314D5167000921652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		910CB63514D5167000921652 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		910CB63514D5167000921652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		910CB63614D5167000921652 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		910CB63914D5167000921652 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		910CB64014D5167E00921652 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		910CB64214D516C000921652 /* PhotoEffects.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = PhotoEffects.qtz; sourceTree = "<group>"; };
+		910CB64414D517D100921652 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		910CB64614D523D900921652 /* NSImage+JPegHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+JPegHelpers.h"; sourceTree = "<group>"; };
+		910CB64714D523D900921652 /* NSImage+JPegHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+JPegHelpers.m"; sourceTree = "<group>"; };
+		91AF282014D6493500864FF8 /* ImageExporter.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageExporter.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AF282714D6493500864FF8 /* ImageExporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageExporter-Info.plist"; sourceTree = "<group>"; };
+		91AF282914D6493500864FF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91AF282B14D6493500864FF8 /* ImageExporterPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageExporterPlugin.h; sourceTree = "<group>"; };
+		91AF282C14D6493500864FF8 /* ImageExporterPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageExporterPlugin.m; sourceTree = "<group>"; };
+		91AF282E14D6493500864FF8 /* ImageExporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageExporter-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +65,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910CB64514D517D100921652 /* Quartz.framework in Frameworks */,
+				910CB64114D5167F00921652 /* QuartzCore.framework in Frameworks */,
 				910CB62414D5167000921652 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF281C14D6493500864FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AF282114D6493500864FF8 /* Cocoa.framework in Frameworks */,
+				91AF282214D6493500864FF8 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				910CB62914D5167000921652 /* PhotoEffects */,
+				91AF282514D6493500864FF8 /* ImageExporter */,
 				910CB62214D5167000921652 /* Frameworks */,
 				910CB62014D5167000921652 /* Products */,
 			);
@@ -56,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				910CB61F14D5167000921652 /* PhotoEffects.app */,
+				91AF282014D6493500864FF8 /* ImageExporter.plugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +105,8 @@
 		910CB62214D5167000921652 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				910CB64414D517D100921652 /* Quartz.framework */,
+				910CB64014D5167E00921652 /* QuartzCore.framework */,
 				910CB62314D5167000921652 /* Cocoa.framework */,
 				910CB62514D5167000921652 /* Other Frameworks */,
 			);
@@ -86,6 +130,8 @@
 				910CB63614D5167000921652 /* AppDelegate.m */,
 				910CB63814D5167000921652 /* MainMenu.xib */,
 				910CB62A14D5167000921652 /* Supporting Files */,
+				910CB64614D523D900921652 /* NSImage+JPegHelpers.h */,
+				910CB64714D523D900921652 /* NSImage+JPegHelpers.m */,
 			);
 			path = PhotoEffects;
 			sourceTree = "<group>";
@@ -93,11 +139,32 @@
 		910CB62A14D5167000921652 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				910CB64214D516C000921652 /* PhotoEffects.qtz */,
 				910CB62B14D5167000921652 /* PhotoEffects-Info.plist */,
 				910CB62C14D5167000921652 /* InfoPlist.strings */,
 				910CB62F14D5167000921652 /* main.m */,
 				910CB63114D5167000921652 /* PhotoEffects-Prefix.pch */,
 				910CB63214D5167000921652 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91AF282514D6493500864FF8 /* ImageExporter */ = {
+			isa = PBXGroup;
+			children = (
+				91AF282B14D6493500864FF8 /* ImageExporterPlugin.h */,
+				91AF282C14D6493500864FF8 /* ImageExporterPlugin.m */,
+				91AF282614D6493500864FF8 /* Supporting Files */,
+			);
+			path = ImageExporter;
+			sourceTree = "<group>";
+		};
+		91AF282614D6493500864FF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91AF282714D6493500864FF8 /* ImageExporter-Info.plist */,
+				91AF282814D6493500864FF8 /* InfoPlist.strings */,
+				91AF282E14D6493500864FF8 /* ImageExporter-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,11 +183,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				91AF283414D65C0500864FF8 /* PBXTargetDependency */,
 			);
 			name = PhotoEffects;
 			productName = PhotoEffects;
 			productReference = 910CB61F14D5167000921652 /* PhotoEffects.app */;
 			productType = "com.apple.product-type.application";
+		};
+		91AF281F14D6493500864FF8 /* ImageExporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AF283114D6493500864FF8 /* Build configuration list for PBXNativeTarget "ImageExporter" */;
+			buildPhases = (
+				91AF281B14D6493500864FF8 /* Sources */,
+				91AF281C14D6493500864FF8 /* Frameworks */,
+				91AF281D14D6493500864FF8 /* Resources */,
+				91AF281E14D6493500864FF8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageExporter;
+			productName = ImageExporter;
+			productReference = 91AF282014D6493500864FF8 /* ImageExporter.plugin */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -144,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				910CB61E14D5166F00921652 /* PhotoEffects */,
+				91AF281F14D6493500864FF8 /* ImageExporter */,
 			);
 		};
 /* End PBXProject section */
@@ -156,10 +243,35 @@
 				910CB62E14D5167000921652 /* InfoPlist.strings in Resources */,
 				910CB63414D5167000921652 /* Credits.rtf in Resources */,
 				910CB63A14D5167000921652 /* MainMenu.xib in Resources */,
+				910CB64314D516C000921652 /* PhotoEffects.qtz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF281D14D6493500864FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AF282A14D6493500864FF8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91AF281E14D6493500864FF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/ImageExporter.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/ImageExporter.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		910CB61B14D5166F00921652 /* Sources */ = {
@@ -168,10 +280,27 @@
 			files = (
 				910CB63014D5167000921652 /* main.m in Sources */,
 				910CB63714D5167000921652 /* AppDelegate.m in Sources */,
+				910CB64814D523D900921652 /* NSImage+JPegHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF281B14D6493500864FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AF282D14D6493500864FF8 /* ImageExporterPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91AF283414D65C0500864FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91AF281F14D6493500864FF8 /* ImageExporter */;
+			targetProxy = 91AF283314D65C0500864FF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		910CB62C14D5167000921652 /* InfoPlist.strings */ = {
@@ -196,6 +325,14 @@
 				910CB63914D5167000921652 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		91AF282814D6493500864FF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91AF282914D6493500864FF8 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,6 +407,32 @@
 			};
 			name = Release;
 		};
+		91AF282F14D6493500864FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageExporter/ImageExporter-Prefix.pch";
+				INFOPLIST_FILE = "ImageExporter/ImageExporter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		91AF283014D6493500864FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageExporter/ImageExporter-Prefix.pch";
+				INFOPLIST_FILE = "ImageExporter/ImageExporter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -287,6 +450,15 @@
 			buildConfigurations = (
 				910CB63E14D5167000921652 /* Debug */,
 				910CB63F14D5167000921652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AF283114D6493500864FF8 /* Build configuration list for PBXNativeTarget "ImageExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AF282F14D6493500864FF8 /* Debug */,
+				91AF283014D6493500864FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
